@@ -43,6 +43,8 @@ $ export API_KEY='your_flickr_api_key'
 ## Running localy 🏠
 ```bash
 $ yarn start
+
+$ curl http://localhost:8080/images?query=aloha
 ```
 
 ## Dependencies
