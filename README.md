@@ -22,6 +22,9 @@ $ yarn install
 # Specify a PORT? Else defaults to 3000
 $ export PORT=5050
 
+# Specify a LIMIT for titles? Else defaults to 10
+$ export LIMIT=2
+
 # Use your own flickr 🔑? Defaults to'80aafb8d5879b4ab3d58a6543021cd59'
 $ export API_KEY='your_flickr_api_key'
 ```
