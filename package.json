@@ -1,0 +1,17 @@
+{
+  "name": "backend-javascript-challenge",
+  "version": "1.0.0",
+  "description": "⚡ Quick coding challenge",
+  "main": "app.js",
+  "repository": "git@github.com:derekahn/backend-javascript-challenge.git",
+  "author": "Derek Ahn <git.derek@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 8.7.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
