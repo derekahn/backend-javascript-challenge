@@ -12,6 +12,7 @@
     "node": ">= 8.7.0"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "flickr-sdk": "^3.4.0"
   }
 }
