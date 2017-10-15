@@ -6,7 +6,7 @@ async function run() {
   const routes = require('./routes');
   app.use(routes);
 
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 8080;
   app.listen(PORT);
 
   console.log(`👂 on port:\x1b[36m ${PORT}`);

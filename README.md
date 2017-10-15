@@ -30,7 +30,7 @@ A quick and fun challenge playing with [Flickr's API](https://www.flickr.com/ser
 # Install 📦s
 $ yarn install
 
-# Specify a PORT? Else defaults to 3000
+# Specify a PORT? Else defaults to 8080
 $ export PORT=5050
 
 # Specify a LIMIT for titles? Else defaults to 10
