@@ -17,12 +17,12 @@ A quick and fun challenge playing with [Flickr's API](https://www.flickr.com/ser
 ```bash
 .
 ├── lib
-│   ├── async.js
-│   └── flickr.js
+│   ├── async.js   # helpers for async things
+│   └── flickr.js  # interface for flickr-sdk
 ├── routes
-│   ├── images.js
+│   ├── images.js  # handler for '/images'
 │   └── index.js
-└── app.js
+└── app.js         # express server
 ```
 
 ## Setup
