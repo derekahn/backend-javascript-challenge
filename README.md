@@ -2,6 +2,17 @@
 
 A quick and fun challenge playing with [Flickr's API](https://www.flickr.com/services/api/).
 
+#### PROS 👍:
+- Clear seperation of concerns--allowing for scalability.
+- `lib/*` are small, light, portable, easily testable, and reusable in other projects.
+    - `lib/flickr` methods are all pure and take a single argument with a consistent response of an array of objects (collection).
+
+#### CONS 👎:
+- Safety Not Garunteed ‼
+  - Any updates/breaking-changes to `flickr-sdk` could 🔩  me.
+  - `lib/flickr.*` is fragile and operates on the assumption of consistent data structures.
+  - `lib/flickr.formatting` order matters for both the `photos` collection and `sizes` collection.
+
 ## Architecture
 ```bash
 .
